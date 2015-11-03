@@ -11,7 +11,7 @@ import java.util.Random;
 
 /**
  * Created by sky on 2015/10/30.
- * <p/>
+ * <p>
  * android验证码控件
  */
 public class IdentifyCodeView extends TextView {
@@ -61,6 +61,7 @@ public class IdentifyCodeView extends TextView {
 
     /**
      * 生成随机验证码
+     *
      * @param length 验证码位数
      */
     public void generateCode(int length) {
@@ -83,8 +84,9 @@ public class IdentifyCodeView extends TextView {
 
     /**
      * 验证
-     * @param code  要验证的字符串
-     * @return      是否通过验证
+     *
+     * @param code 要验证的字符串
+     * @return 是否通过验证
      */
     public boolean verifyCode(String code) {
         return this.code.toLowerCase().equals(code.toLowerCase());
