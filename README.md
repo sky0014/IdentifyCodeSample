@@ -10,12 +10,14 @@ Android identify code generator
 
 欢迎大家使用提意见，有兴趣的朋友可以一起改进：）
 
-*2015年11月5日更新*
+**2015年11月5日更新**
 
 jcenter审核通过，Android studio里可以直接在dependencies里添加
 
+'''groove
 compile 'com.sky:com-sky-identifycode:0.1.0'
+'''
 
-来引用
+来引用本库
 
 写这个项目也是为了练习一下如何把自己的项目发布到jcenter库里，蛤蛤。
