@@ -14,9 +14,7 @@ Android identify code generator
 
 jcenter审核通过，Android studio里可以直接在dependencies里添加
 
-'''groove
-compile 'com.sky:com-sky-identifycode:0.1.0'
-'''
+*compile 'com.sky:com-sky-identifycode:0.1.0'*
 
 来引用本库
 
